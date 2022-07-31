@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+	background-color: black;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+h1,h4 {
+	color: white;
+	text-align:center;
+	font-family: 'Work Sans', sans-serif;
+
+}
+label {
+	color: white;
+}
+

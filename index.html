@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Vale a pena parcelar?</h1>
+	<p>Ao parcelar suas compras, você pode deixar seu dinheiro rendendo enquanto paga as parcelas ao longo dos meses</p>
+	<p>Vamos calcular quanto é possível economizar, parcelando sem juros enquanto seu dinheiro rende 100% do cdi</p>
+
+	<div class="calculator">
+
+		<!-- Calling Calculate function defined in app.js -->
+		<p>Valor da compra:
+				<input id="amount" type="number" 
+				onchange="Calculate()">
+		</p>
+
+		<p>Numero de parcelas :
+				<input id="months" type="number" 
+				onchange="Calculate()">
+		</p>
+
+		<h4 id="total"></h4>
+	</div>
+	
+  <script src="script.js"></script>
+
+</body>
+
+</html>
